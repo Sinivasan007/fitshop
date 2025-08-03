@@ -1,0 +1,131 @@
+.home {
+  padding: 20px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.home-header {
+  text-align: center;
+}
+
+.search-bar {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #b6b4b4;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+  color: #fff;
+  outline: none;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  background: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  width: calc(33.33% - 40px);
+  max-width: 300px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.product-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.product-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.product-card h2 {
+  font-size: 1.5rem;
+  margin: 15px 0;
+  color: #ffffff;
+}
+
+.product-card p {
+  color: #cccccc;
+  font-size: 1rem;
+  padding: 0 15px;
+}
+
+.product-price {
+  font-weight: bold;
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #cccccc;
+  transform: scale(1.05);
+}
+
+button:focus {
+  outline: none;
+}
+
+.product-card button {
+  margin: 10px;
+  width: calc(100% - 20px);
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.product-card button:hover {
+  background-color: #cccccc;
+  transform: scale(1.05);
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.quantity-controls button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  width: 30px;
+}
+
+.quantity-controls span {
+  margin: 0 10px;
+  font-size: 16px;
+}

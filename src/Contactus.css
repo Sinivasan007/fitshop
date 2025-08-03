@@ -1,0 +1,77 @@
+.container {
+    background-color: #141313;
+    padding: 20px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 90px;
+    justify-content: left;
+    border: 2px solid rgb(131, 131, 131);
+    border-radius: 30px;
+}
+.container h1{
+    color: #f3f8f9;
+    text-decoration: underline;
+}
+
+p {
+    color: #f5f3f3;
+    line-height: 1.6;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #fcf9f9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;    
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #f7f1f1;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #070808;
+    color: rgb(253, 241, 241);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #414040;
+}
+
+.product-list {
+    text-align: left;
+}
+
+.product-item {
+    margin-bottom: 20px;
+}
+
+.product-item h2 {
+    font-size: 20px;
+    color: #101111;
+}
+
+.product-item p {
+    color: #191919;
+}
