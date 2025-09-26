@@ -1,0 +1,162 @@
+.fitai-page-container body {
+  background: #141414;
+  color: #eaeaea;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+box-shadow: 0 6px 36px 0 rgba(0, 0, 0, 0.7);
+  margin: 0;
+background: 23rgb(169, 170, 173);
+  border-radius: 18px;
+  box-shadow: 0 6px 36px 0 rgba(0, 0, 0, 0.7);
+  padding: 46px 54px 36px
+}
+
+.fitai-page-container .navbar {
+  width: 100%;
+  background: #161a2c;
+  padding: 18px 0 12px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 998;
+  box-shadow: 0 2px 16px rgba(0,255,182,0.06);
+}
+
+.fitai-page-container .navbar button {
+  background: linear-gradient(90deg, #00ffb6 0%, #008080 100%);
+  color: #23262b;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 14px;
+  padding: 10px 22px;
+  border-radius: 8px;
+  box-shadow: 0 2px 14px rgba(0,255,182, 0.12);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.fitai-page-container .navbar button:hover {
+  background: linear-gradient(90deg, #008080 0%, #00ffb6 100%);
+}
+
+.fitai-page-container .fitai-container {
+  max-width: 900px;
+  width: 98vw;
+  margin: 36px auto 0 auto;
+  background: #23262b;
+  border-radius: 18px;
+  box-shadow: 0 6px 36px 0 rgba(0,255,182,0.25);
+  padding: 46px 54px 36px;
+}
+
+.fitai-page-container h2 {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 2.3rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.fitai-page-container label {
+  font-weight: 600;
+  color: #63ffe4;
+  margin-bottom: 6px;
+  display: block;
+  font-size: 1.08rem;
+}
+
+.fitai-page-container select {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  border: none;
+  border-radius: 7px;
+  background: #292b2d;
+  color: #fffae5;
+  font-size: 1.1rem;
+  outline: none;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+}
+
+.fitai-page-container button {
+  width: 100%;
+  background: linear-gradient(90deg,#38ef7d 0,#11998e 100%);
+  color: #fff;
+  padding: 13px;
+  font-size: 1.16rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 34px;
+  transition: background 0.15s;
+  box-shadow: 0 2px 16px 0 rgba(56,239,125,0.09);
+}
+
+.fitai-page-container button:hover {
+  background: linear-gradient(90deg, #11998e 0, #38ef7d 100%);
+}
+
+.fitai-page-container .error-message {
+  color: #ff6565;
+  text-align: center;
+  margin-bottom: 14px;
+  font-size: 1.09rem;
+}
+
+.fitai-page-container h3 {
+  margin-top: 40px;
+  font-size: 1.32rem;
+  color: #47e6b6;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.fitai-page-container .workout-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+
+.fitai-page-container .workout-card {
+  background: #222;
+  border-radius: 15px;
+  margin-bottom: 32px;
+  padding: 26px 34px 22px 34px;
+  box-shadow: 0 4px 18px 0 rgba(34,34,34,0.17);
+  transition: box-shadow 0.2s;
+}
+
+.fitai-page-container .workout-exercise {
+  font-weight: bold;
+  font-size: 1.26rem;
+  color: #89ffe1;
+  margin-bottom: 2px;
+}
+
+.fitai-page-container .workout-details, 
+.fitai-page-container .workout-label {
+  font-weight: bold;
+  color: #ffe177;
+  font-size: 1.06rem;
+  margin-top: 9px;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.fitai-page-container .instruction-list {
+  margin-left: 0;
+  padding-left: 18px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.fitai-page-container .instruction-list li {
+  color: #afdacf;
+  margin-bottom: 6px;
+  font-size: 1.07rem;
+  line-height: 1.55;
+}
