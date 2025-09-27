@@ -8,6 +8,7 @@ import MyCart from './MyCart';
 import Checkout from './Checkout';
 import LoginPage from './LoginPage';
 import SignUpPage from './SignUpPage';
+import FitAi from './FitAi';
 
 const App = () => {
   const [route, setRoute] = useState('/Products');
@@ -46,6 +47,8 @@ const App = () => {
         return <SignUpPage />;
       case '/About':
         return <About />;
+      case '/FitAi':
+        return <FitAi />;
       case '/Products':
         return <Products addToCart={addToCart} />;
       case '/Contactus':
@@ -77,6 +80,7 @@ const App = () => {
           <button className='h' onClick={() => setRoute('/')}>Products</button>
           <button className='h' onClick={() => setRoute('/Contactus')}>Contact Us</button>
           <button className='h' onClick={() => setRoute('/About')}>About Us</button>
+          <button className='h' onClick={() => setRoute('/FitAi')}>Get Fit With AI</button>
         </div>
         <div className='c2'>
           <button className='h' onClick={() => setRoute('/LogIn')}>Log In</button>

@@ -36,7 +36,7 @@
   
   .quantity-controls button {
     background-color: #ffffff;
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 5px;
     cursor: pointer;

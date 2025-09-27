@@ -4,7 +4,7 @@ import './Home.css';
 const products = [
   { id: 1, image: 'dd.webp', name: 'Dumbbell Set', description: 'High-quality dumbbells for your strength training.', price: 50.00 },
   { id: 2, image: 'ym.webp', name: 'Yoga Mat', description: 'Comfortable and non-slip yoga mat for all your poses.', price: 25.00 },
-  { id: 3, image: 'pb.webp', name: 'Protein Powder', description: 'High-protein powder for muscle recovery and growth.', price: 30.00 },
+  { id: 3, image: 'pp.webp', name: 'Protein Powder', description: 'High-protein powder for muscle recovery and growth.', price: 30.00 },
   { id: 4, image: 'rb.webp', name: 'Resistance Bands', description: 'Set of resistance bands for versatile workouts.', price: 15.00 },
   { id: 5, image: 'tdm.webp', name: 'Treadmill', description: 'Compact and durable treadmill for home workouts.', price: 299.00 },
   { id: 6, image: 'kbs.webp', name: 'Kettlebell Set', description: 'Various weights of kettlebells for functional training.', price: 120.00 },
@@ -25,7 +25,7 @@ const products = [
   { id: 21, image: 'rm.webp', name: 'Rowing Machine', description: 'Efficient rowing machine for full-body workouts.', price: 250.00 },
   { id: 22, image: 'eb.webp', name: 'Elliptical Trainer', description: 'Smooth elliptical trainer for low-impact cardio.', price: 300.00 },
   { id: 23, image: 'Exercise Bike.webp', name: 'Exercise Bike', description: 'Compact exercise bike for indoor cycling.', price: 150.00 },
-  { id: 24, image: 'pb.webp', name: 'Punching Bag', description: 'Durable punching bag for boxing workouts.', price: 90.00 },
+  { id: 24, image: 'puba.webp', name: 'Punching Bag', description: 'Durable punching bag for boxing workouts.', price: 90.00 },
   { id: 25, image: 'sl.webp', name: 'Speed Ladder', description: 'Speed ladder for agility and speed training.', price: 20.00 },
   { id: 26, image: 'gd.webp', name: 'Gliding Discs', description: 'Set of gliding discs for full-body workouts.', price: 10.00 },
   { id: 27, image: 'wjr.webp', name: 'Weighted Jump Rope', description: 'Weighted jump rope for enhanced cardio workouts.', price: 15.00 },

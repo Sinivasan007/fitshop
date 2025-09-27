@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Auth.css';
+import './Auth.css'; // Assuming you have Auth.css for styling
 
 const LoginPage = ({ onLogin }) => {
   const [email, setEmail] = useState('');
@@ -7,7 +7,7 @@ const LoginPage = ({ onLogin }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle login logic here
+    // Pass email, password to the login handler function from parent
     onLogin(email, password);
   };
 
@@ -15,6 +15,7 @@ const LoginPage = ({ onLogin }) => {
     <div className="auth-container">
       <form className="auth-form" onSubmit={handleSubmit}>
         <h2>Login</h2>
+
         <label htmlFor="email">Email:</label>
         <input
           type="email"
@@ -23,6 +24,7 @@ const LoginPage = ({ onLogin }) => {
           onChange={(e) => setEmail(e.target.value)}
           required
         />
+
         <label htmlFor="password">Password:</label>
         <input
           type="password"
@@ -31,7 +33,12 @@ const LoginPage = ({ onLogin }) => {
           onChange={(e) => setPassword(e.target.value)}
           required
         />
+
         <button type="submit">Login</button>
+
+        <p style={{ marginTop: '1rem' }}>
+          Don't have an account? <a href="/signup">Sign Up</a>
+        </p>
       </form>
     </div>
   );

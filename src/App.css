@@ -33,6 +33,8 @@ nav{
   font-size: medium;
   color:rgb(255, 255, 255);
   padding: 0%;
+  min-width: unset; /* remove any fixed min-width */
+  width: auto;     /* allow width to adjust to content */
 }
 button:hover.h{
   background: none;

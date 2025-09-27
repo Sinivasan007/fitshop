@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Auth.css';
+import './Auth.css'; // Assuming you have Auth.css for styling
 
 const SignUpPage = ({ onSignUp }) => {
   const [email, setEmail] = useState('');
@@ -9,10 +9,10 @@ const SignUpPage = ({ onSignUp }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (password === confirmPassword) {
-      // Handle signup logic here
+      // Pass email and password to signup handler prop
       onSignUp(email, password);
     } else {
-      alert("Passwords do not match!");
+      alert('Passwords do not match!');
     }
   };
 
@@ -20,6 +20,7 @@ const SignUpPage = ({ onSignUp }) => {
     <div className="auth-container">
       <form className="auth-form" onSubmit={handleSubmit}>
         <h2>Sign Up</h2>
+
         <label htmlFor="email">Email:</label>
         <input
           type="email"
@@ -28,6 +29,7 @@ const SignUpPage = ({ onSignUp }) => {
           onChange={(e) => setEmail(e.target.value)}
           required
         />
+
         <label htmlFor="password">Password:</label>
         <input
           type="password"
@@ -36,6 +38,7 @@ const SignUpPage = ({ onSignUp }) => {
           onChange={(e) => setPassword(e.target.value)}
           required
         />
+
         <label htmlFor="confirmPassword">Confirm Password:</label>
         <input
           type="password"
@@ -44,7 +47,11 @@ const SignUpPage = ({ onSignUp }) => {
           onChange={(e) => setConfirmPassword(e.target.value)}
           required
         />
+
         <button type="submit">Sign Up</button>
+           <p style={{ marginTop: '1rem' }}>
+        Already have an account? <a href="/login">Login</a>
+      </p>
       </form>
     </div>
   );
