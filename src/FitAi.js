@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './FitAi.css';
 
-const apiKey = 'ZhmUQfaNGmSBQSQUtH4hbA==JebR3MapaKvsbc4q'; // Your API key
+const apiKey = 'Your API key'; // Your API key
 
 const bodyConditions = {
   beginner: { sets: 3, reps: 10 },
