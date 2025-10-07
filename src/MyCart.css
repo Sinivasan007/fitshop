@@ -42,18 +42,22 @@
     cursor: pointer;
     width: 30px;
   }
-  
-  .quantity-controls span {
-    margin: 0 10px;
-    font-size: 16px;
-  }
-  
-  .remove-button {
-    background-color: red;
+  .quantity-controls .remove-button{
+    background-color: rgb(255, 0, 0);
     color: white;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+    align-items: left;
+    width: 
+    auto;
+  }
+  
+  .quantity-controls span {
+    margin: 0 10px;
+    font-size: 16px;
   }
   
   .cart-total {
@@ -74,4 +78,35 @@
   .checkout-button:hover {
     background-color: #0056b3;
   }
-  
+.ai-advice {
+  margin-top: 14px;
+  padding: 16px;
+  background: #232323;           /* dark grey background suitable for dark theme */
+  color: #ffffff;                /* white text for contrast */
+  border-radius: 8px;
+  border: 1px solid #444444;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  line-height: 1.5;
+  white-space: pre-line;        /* respects line breaks */
+}
+.ai-assist-button {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  padding: 16px 24px;
+  background-color: #007bff; /* Bright blue */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.ai-assist-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

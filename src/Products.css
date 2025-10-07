@@ -67,13 +67,14 @@
   
   .subtext {
     font-size: 1.2rem;
-    color: #cccccc;
+    color: #eee9e9;
     margin: 10px 0;
   }
   
   .section {
-    text-align: center;
+    text-align: left;
     padding: 20px;
+    margin: 10px 0;
   }
   
   .image {
@@ -125,7 +126,7 @@
   }
   
   .subtext {
-    font-size: 1.2rem;
+    font-size: 2 rem;
     color: #cccccc;
     margin: 10px 0;
   }
@@ -133,19 +134,27 @@
   .service-details, .product-reviews {
     text-align: left;
     padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
+    width: 100% ;
+    margin: 10px 0;
   }
   
   .service-details h2, .product-reviews h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #ffffff;
     margin-bottom: 10px;
+    margin: 10px auto;
   }
-  
-  .service-details p, .product-reviews p {
+  .service-details ul{
+    margin: 10px auto;
+    font-size: 1.2 rem;
     color: #cccccc;
-    font-size: 1rem;
+    line-height: 2;
+    
+  }
+  .service-details p, .product-reviews p {
+    color: #eeeeee;
+    font-size: 1.5rem;
+     margin: 10px auto;
     line-height: 1.5;
   }
   
@@ -161,7 +170,7 @@
   
   .review p {
     color: #cccccc;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   
   .footer {

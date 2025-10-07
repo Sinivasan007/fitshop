@@ -45,11 +45,20 @@ const Products = () => {
 
         <section className="service-details">
           <h2>Our Services</h2>
-          <p>
-            At Fitness Freak, we are dedicated to providing top-notch fitness equipment and accessories. Our services include personalized workout plans, expert fitness advice, and a range of products that are carefully selected to meet your fitness goals. Whether you’re a beginner or a seasoned athlete, our team is here to support you every step of the way.
+              <p>
+            At Fitness Freak, we are dedicated to providing top-notch fitness equipment and accessories. Our services include:
           </p>
+          <ul>
+            <li>Personalized workout plans tailored to your fitness goals</li>
+            <li>Expert fitness advice both online and in store</li>
+            <li>Extensive product range carefully selected for quality and effectiveness</li>
+            <li>Flexible shipping and easy return policies</li>
+            <li>24/7 customer support to assist with any queries</li>
+            <li>Member-only access to live workout sessions and fitness webinars</li>
+            <li>Discounts and loyalty programs rewarding your commitment</li>
+          </ul>
           <p>
-            We offer flexible shipping options to ensure your products reach you promptly, and our customer support team is always available to assist you with any queries or concerns. Our goal is to help you achieve your fitness aspirations with the best products and services available.
+            Our goal is to help you achieve your fitness aspirations with the best products and supportive services available.
           </p>
         </section>
 
